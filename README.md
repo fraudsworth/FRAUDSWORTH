@@ -11,7 +11,7 @@ Dr. Fraudsworth's Finance Factory is a mainnet-deployed protocol centered on a c
 Prior to the full protocol deployment, a rigorous testing phase was conducted to evaluate various liquidity architectures and automated market maker (AMM) models.
 
 ### Protocol Prototyping
-* **Test Asset:** An initial test coin (``) was deployed from the developer wallet ``.
+* **PARODY Asset:** An mock asset to be deployed from sol wallet `GNZ14A8rTsLMCSUcna44Li9bCkfurfe7nbFmr8UpSnZc`.
 * **The Pivot from Pump.fun:** The initial deployment utilized a standard pump.fun AMM. However, testing determined that the static nature of standard bonding curves was insufficient for the protocol's tax-recycling requirements.
 * **Migration to Meteora:** To resolve these limitations, the protocol migrated to **Meteora**, leveraging its **Dynamic Fee** architecture. This transition allowed for optimized liquidity capture and real-time fee adjustment, establishing the foundation for the current Finance Factory infrastructure.
 
